@@ -1,0 +1,46 @@
+body {
+    background-color: #694380;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+cabecalho {
+    height: 10px;
+    padding: 0 8%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000000;
+    border-top: 0cm;
+}
+.links {
+   display: flex;
+   gap: 10px;
+
+
+}.link{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(146, 70, 233);
+    transition: background-color 0.2s ease;
+}
+.link:hover {
+    background-color: #9a17e6;
+    color: rgb(138, 32, 224);
+}
