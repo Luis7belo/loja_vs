@@ -3,14 +3,43 @@ body {
     margin: 0;
     padding: 0;
 }
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 100px);
+main {
+    padding: 20px;
+}
+.container{
     font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.lista_produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+.produto {
+    background-color: #7018b8;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.compra{
+    background-color: #be29fb;
+    color: #3d2746;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
+.compra:hover {
+    background-color: #811da8;
+    color: hsl(281, 41%, 77%);
+}
 .conteudo {
     text-align: center;
     color: #fff;
