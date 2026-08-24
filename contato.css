@@ -13,7 +13,10 @@ body {
 
 .conteudo {
     font-family: Arial, sans-serif;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     color: #fff;
 }
 .cabecalho {
